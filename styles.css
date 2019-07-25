@@ -10,10 +10,12 @@
 .left-footer {
     position: fixed;
     bottom: 0;
-    left: 20px;
     text-align: left;
-    padding-left: 20px;
 }
+
+.lft-ft-links {
+    padding-left:27px;
+  }
 
 .right-footer {
     position: fixed;
@@ -22,10 +24,44 @@
     text-align: right;
 }
 
+.rit-ft-links {
+    padding-right: 27px;
+}
+
 .google-container {
     grid-column: 2/3;
     display: grid;
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    padding-top: 170px;
+}
+
+.search {
+    width: 600px;
+    margin: 15px auto;
+    height: 40px;
+    color: rgba(0,0,0,.87);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: rgb(214, 214, 214);
+    padding-left: 15px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-real {
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px;
+    background-color: #f2f2f2;
+    color: #5F6368;
 }
