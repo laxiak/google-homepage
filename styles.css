@@ -1,31 +1,60 @@
 .header {
     text-align: right;
+    font-size: 10pt;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.head-links {
+    color: rgba(0,0,0,0.87);
+    padding-right: 10px; 
+}
+
+.sign-in {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    height: 30px;
+    width: 62px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 .footer {
+    font-size: 10pt;
     position: fixed;
     bottom: 0;
     width: 100%;
+    border: 1px solid #e4e4e4;
+    padding-bottom: 12px;
+    left: 0;
+    right: 0;
+    padding-top: 12px;
+    justify-items: center;
+    background-color: #f0f0f0;
 }
 .left-footer {
-    position: fixed;
-    bottom: 0;
-    text-align: left;
+    float: left;
 }
 
 .lft-ft-links {
     padding-left:27px;
+    cursor: pointer;
+    color: #5f6368;
   }
 
 .right-footer {
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-    text-align: right;
+    float: right;
 }
 
 .rit-ft-links {
     padding-right: 27px;
+    color: #5f6368;
 }
 
 .google-container {
@@ -64,4 +93,11 @@
     border: 1px;
     background-color: #f2f2f2;
     color: #5F6368;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
